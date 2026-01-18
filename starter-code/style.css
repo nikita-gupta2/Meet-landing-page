@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html{
+    font-size: 1rem;
+}
+:root {
+--cyan-600: hsl(192, 37%, 48%);
+--cyan-300: hsl(192, 90%, 77%);
+--purple-600: hsl(268, 34%, 53%);
+--white: hsl(0, 0%, 98%);
+--purple-300: hsl(268, 100%, 86%);
+--slate-900: hsl(240, 21%, 20%);
+--slate-600: hsl(240, 10%, 57%);
+--slate-300: hsl(240, 18%, 85%);
+}
+
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    letter-spacing: 0;
+    line-height: 1.1; 
+    min-height: 100vh;
+}
+.text-preset-1 {
+  font-weight: 900;        
+  font-size: 2.5rem;
+}
+.text-preset-2 {
+  font-weight: 900;        
+  font-size: 2rem;  
+}
+.text-preset-3 {       
+  font-size: 0.75rem;
+  letter-spacing: 0.25rem;
+  font-weight: 900;
+}
+.text-preset-4 {    
+    font-weight: 500;
+  font-size: 1.125rem;    
+}
+.text-preset-5 {    
+      font-weight: 900;
+  font-size: 1rem;   
+    line-height: 1.5;   
+}
+
+
