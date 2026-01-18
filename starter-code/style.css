@@ -226,4 +226,25 @@ footer .counter{
 }
 
 
+@media (min-width: 48rem){
+  .client{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,1fr);
+  gap: 1rem;
+}
+.hero-image{
+  height: 18.9375rem;
+}
+.footer-content{
+  background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("./assets/tablet/image-footer.jpg");
+}
 
+}
+
+/* 
+@media (min-width: 72rem){
+  .footer-content{
+  background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("./assets/desktop/image-footer.jpg");
+}
+} */
