@@ -282,7 +282,6 @@ footer .counter{
   background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("./assets/tablet/image-footer.jpg");
     background-size: cover;
 }
-
 .text-preset-1{
   font-size: 3rem;
 }
@@ -299,6 +298,7 @@ footer .counter{
   flex-direction: row;
   gap: 0.5rem;
 }
+
 }
 
 
@@ -371,12 +371,20 @@ main{
 padding-block: 4rem;
 padding-inline: 5rem;
 width: 70rem;
-    gap: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-align-items: center;
+  gap: 2rem;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+align-items: center; */
+display: grid;
+grid-template-columns: auto 28.01875rem auto;
+grid-template-areas:  " left content right ";
+
 }
+  .left{ grid-area: left;}
+  .content{ grid-area: content;}
+  .right{ grid-area: right;}
+
 }
 
 
