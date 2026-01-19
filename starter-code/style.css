@@ -93,23 +93,22 @@ nav{
 padding-block-start: 4rem;
     padding-block-end: 2rem;
 
-    gap: 4rem;
-    /* display: flex;
+    gap: 0.5rem;
+
+    
+}
+.combined{
+  gap: 4rem;
+      display: flex;
     align-items: center;
     justify-content: center;
-    
-    flex-direction: column; */
-    display: grid;
-    grid-template-areas: 
-            "hero-image"
-            "content";
+    flex-direction: column;
 }
-  .content{ grid-area: content;}
-  .hero-image{ grid-area: hero-image;
+.hero-image{
   height: 10rem;
   width: 100%;
-  object-fit: cover;
-  }
+  background-size: cover;
+}
 .left,.right{
   display: none;
 }
@@ -220,12 +219,13 @@ footer{
   
 }
 .footer-content{
+  width: 100%;
   gap:4rem;
   display: flex;
   justify-content: start;
   flex-direction: column;
   align-items: center;
-    text-align: center;
+  text-align: center;
   padding-inline: 2rem;
   padding-block: 4rem;
   background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("./assets/mobile/image-footer.jpg");
@@ -233,6 +233,9 @@ footer{
 
 }
 
+footer{
+  width: 100%;
+}
 .footer-hero{
     gap:1.5rem;
   display: flex;
@@ -257,6 +260,24 @@ footer .counter{
 .hero-image{
   height: 18.9375rem;
 }
+.footer-hero{
+  width: 31.5rem;
+}
+.content{
+  width: 28.01875rem;
+}
+.main-content{
+  width: 31.5rem;
+}
+.hero{
+  padding-block: 4rem;
+}
+.combined{
+  gap: 4.5rem;
+}
+.box{
+  width: 27.8125rem;
+}
 .footer-content{
   background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("./assets/tablet/image-footer.jpg");
     background-size: cover;
@@ -274,10 +295,15 @@ footer .counter{
 .text-preset-4{
   font-size: 1rem;
 }
+.frame{
+  flex-direction: row;
+  gap: 0.5rem;
+}
 }
 
 
-@media (min-width: 85rem){
+@media (min-width: 90rem){
+
   .footer-content{
       padding-inline: 5rem;
   padding-block: 7rem;
@@ -293,12 +319,16 @@ background-size: cover;
   
   justify-content: center;
   align-items: start;
+  width: 70rem;
 }
 .footer-content .btn{
   flex-direction: row;
 }
 .frame{
   gap: 0.5rem;
+}
+.content{
+  padding-inline: 0;
 }
 main{
   padding-block-start: 3.5rem;
@@ -328,30 +358,25 @@ main{
   display: none;
 }
 .left,.right{
-  display: block;
+  display: inline-block;
 }
-
 .hero{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.combined{
 padding-block: 4rem;
 padding-inline: 5rem;
-
+width: 70rem;
     gap: 2rem;
-    display: grid;
-    grid-template-areas: 
-            "left content right"
-}
-  .content{ grid-area: content;}
-  .left{ grid-area: left;
-  height: 19.625rem;
-  width: 100%;
-  object-fit: cover;
-  }
-    .right{ grid-area: right;
-  height: 19.625rem;
-  width: 100%;
-  object-fit: cover;
-  }
-.frame{
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+align-items: center;
 }
 }
+
+
