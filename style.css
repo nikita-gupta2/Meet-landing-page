@@ -228,7 +228,7 @@ footer{
   text-align: center;
   padding-inline: 2rem;
   padding-block: 4rem;
-  background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("./assets/mobile/image-footer.jpg");
+  background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("starter-code/assets/mobile/image-footer.jpg");
   background-size: cover;
 
 }
@@ -282,7 +282,7 @@ footer .counter{
   width: 27.8125rem;
 }
 .footer-content{
-  background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("./assets/tablet/image-footer.jpg");
+  background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("starter-code/assets/tablet/image-footer.jpg");
     background-size: cover;
 }
 .text-preset-1{
@@ -311,7 +311,7 @@ footer .counter{
       padding-inline: 5rem;
   padding-block: 7rem;
 
-background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("./assets/desktop/image-footer.jpg");
+background-image: linear-gradient(hsla(192, 37%, 48%, 0.9),hsla(192, 37%, 48%, 0.9)),url("starter-code/assets/desktop/image-footer.jpg");
 background-size: cover;
 }
 
