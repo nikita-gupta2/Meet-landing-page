@@ -142,8 +142,8 @@ padding-block-start: 4rem;
 
 main{
   display: flex;
-  padding-block-start: 4rem;
-  padding-block-end: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 4rem;
   padding-inline: 2rem;
   gap: 4rem;
   flex-direction: column;
@@ -251,6 +251,9 @@ footer .counter{
 
 
 @media (min-width: 48rem){
+  main{
+    padding-block-start: 3.5rem;
+  }
   .client{
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -381,10 +384,14 @@ grid-template-columns: auto 28.01875rem auto;
 grid-template-areas:  " left content right ";
 
 }
-  .left{ grid-area: left;}
+  .left{ grid-area: left;
+     transform: translateX(-5.8125rem);
+  }
   .content{ grid-area: content;}
-  .right{ grid-area: right;}
-
+  .right{ grid-area: right;
+  transform: translateX(7.9875rem);
+transform: translateY(4.75rem);
+}
 }
 
 
